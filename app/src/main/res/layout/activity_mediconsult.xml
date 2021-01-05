@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MediconsultActivity">
+
+    <ImageView
+        android:id="@+id/logo_top"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/logo_top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/character"
+        android:layout_width="274.4dp"
+        android:layout_height="546dp"
+        android:layout_above="@+id/logo_bottom"
+        android:layout_marginBottom="160dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/character" />
+
+    <ImageView
+        android:id="@+id/box"
+        android:layout_width="480dp"
+        android:layout_height="140dp"
+        android:background="@drawable/box"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/logo_bottom"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/input_text"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:text="결과가 여기에 표시됩니다."
+        android:textColor="#F7F2F2"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_above="@+id/logo_bottom"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="72dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/btn_speech"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/logo_bottom"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="65dp"/>
+
+    <ImageView
+        android:id="@+id/logo_bottom"
+        android:layout_width="227dp"
+        android:layout_height="21dp"
+        android:background="@drawable/logo_gachon"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>
